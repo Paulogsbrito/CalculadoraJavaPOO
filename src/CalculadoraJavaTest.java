@@ -94,7 +94,7 @@ public class CalculadoraJavaTest {
 
         List<String> historico = calculadora.getHistorico();
         assertEquals(1, historico.size(),"O historico deve registrar erro de Divisão por Zero");
-        assertTrue(historico.get(0).contains("Erro de Divisão por Zero!!!"));
+        assertTrue(historico.get(0).contains("Erro: Divisão por Zero não é permitida!!!"));
     }
 
 
